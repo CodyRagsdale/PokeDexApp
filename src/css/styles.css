@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css?family=Sigmar+One);
+
+html {
+    font-size: 100%;
+    text-transform: capitalize;
+}
+
+body {
+    background: linear-gradient(to bottom, #0075BE, #0A285F);
+    font-family: 'sigmar one';
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    padding-top: 120px;
+}
+
+header {
+    height: 60px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #DFDFDF;
+    color: #FB1B1B;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 20px;
+}
+
+.form-control {
+    border: none;
+}
+
+main {
+    margin: 20px;
+    line-height: 1.5;
+    font-size: 1rem;
+    text-align: center;
+    flex: 1;
+    margin-top: 60px;
+}
+
+.h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin-right: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 5px;
+    margin-bottom: 15px;
+    line-height: 1;
+    text-align: left;
+}
+
+p {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: black;
+}
+
+a,
+a:active,
+a:visited,
+a:focus {
+    color: black
+}
+
+.pokemon-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1600px;
+}
+
+.pokemon-button {
+    padding: 10px;
+    font-size: 1.6em;
+    border: none;
+    background-color: #FFCC00;
+    border-radius: 25%;
+    margin: 10px;
+    width: 300px;
+    transition: 0.4s background-color;
+    color: black;
+    text-transform: capitalize;
+    box-shadow: 10px 5px 5px #FB1B1B;
+    animation: pulse 8s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.pokemon-button:hover {
+    background-color: #D5A100;
+    cursor: pointer;
+    transform: skew(-10deg);
+}
+
+.modal-img {
+    width: 150px;
+}
+
+#search-button,
+#clear-button {
+    background-color: #FB1B1B;
+    color: white;
+}
+
+#search-button:hover,
+#clear-button:hover {
+    scale: 1.1;
+}
+
