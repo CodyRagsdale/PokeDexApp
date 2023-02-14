@@ -2,7 +2,7 @@ Simple JavaScript Pokemon App
 This is a simple JavaScript application that uses the Pokemon API to display information about different Pokemon species.
 
 Features:
-A list of all first generation Pokemon with their names displayed as buttons.
+A list of all first and second generation Pokemon with their names displayed as buttons.
 Clicking on a button opens a modal with information about the selected Pokemon, including its height, weight, types, and front and back default images.
 A search bar to search for a specific Pokemon by name.
 Prev/Next buttons in the modal to easily navigate through the list of Pokemon.
