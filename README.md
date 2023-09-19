@@ -1,6 +1,8 @@
 # Simple JavaScript Pokemon App
 This is a simple JavaScript application that uses the Pokemon API to display information about different Pokemon species.
 
+## Live Version:
+https://codyragsdale.github.io/PokeDexApp/
 ## Features:
 - A list of all first and second generation Pokemon with their names displayed as buttons.
 - Clicking on a button opens a modal with information about the selected Pokemon, including its height, weight, types, and front and back default images.
